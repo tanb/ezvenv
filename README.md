@@ -1,6 +1,15 @@
 Welcome to ez_venv manual.
 =============================
 
+Install:
+        
+        $ make install
+
+        and Please add the following line to the end of your ~/.bashrc:
+        
+        source $HOME/.ez_venv/etc/ez_venv.sh
+        
+
 Usage:
 
         list:
