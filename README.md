@@ -18,7 +18,7 @@ Uninstall:
 
 Usage:
 
-        $ez_venv list:
+        $ ez_venv list:
                 List vertualenv like this
 
                 EnvName        Description
@@ -27,16 +27,16 @@ Usage:
                 envMyFW	for test new framework.
 
 
-        $ez_venv create PATH_TO_PYTHON ENV_NAME DESCRIPTION [OPTIONS]...:
+        $ ez_venv create PATH_TO_PYTHON ENV_NAME DESCRIPTION [OPTIONS]...:
                 Create virtualenv named ENV_NAME.
                 You *MUST* give PATH_TO_PYTHON, ENV_NAME, and DESCRIPTION.
                 [OPTIONS] are virtualenv.py's.
 
-        $ez_venv delete ENV_NAME:
+        $ ez_venv delete ENV_NAME:
                 delete virtualenv named ENV_NAME.
                 Actually, this command remove the virtualenv directory in $HOME/.ez_venv/venvs/
 
-        $ez_venv activate ENV_NAME:
+        $ ez_venv activate ENV_NAME:
                 activate the virtualenv.
                 if you decide deactivate that env, just 
                 
