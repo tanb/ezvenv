@@ -8,7 +8,13 @@ Install:
         and Please add the following line to the end of your ~/.bashrc:
         
         source $HOME/.ez_venv/etc/ez_venv.sh
+
+Uninstall:
+
+        $ rm -rf $HOME/.ez_venv
         
+        That's it. If you've added the source line to your ~/.bashrc, remove it. 
+
 
 Usage:
 
