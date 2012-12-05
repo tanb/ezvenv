@@ -32,11 +32,11 @@ Usage:
                 You *MUST* give PATH_TO_PYTHON, ENV_NAME, and DESCRIPTION.
                 [OPTIONS] are virtualenv.py's.
 
-        delete ENV_NAME:
+        $ez_venv delete ENV_NAME:
                 delete virtualenv named ENV_NAME.
                 Actually, this command remove the virtualenv directory in $HOME/.ez_venv/venvs/
 
-        activate ENV_NAME:
+        $ez_venv activate ENV_NAME:
                 activate the virtualenv.
                 if you decide deactivate that env, just 
                 
