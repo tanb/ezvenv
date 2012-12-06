@@ -76,6 +76,7 @@ __ezvenv_run()
             activate) __ezvenv_activate "$@" ;;
             create) __ezvenv_create "$@" ;;
             delete) __ezvenv_delete "$@" ;;
+            help) __ezvenv_help "$@" ;;
         esac
 
         builtin hash -r
