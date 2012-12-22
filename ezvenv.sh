@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH_EZVENV_HOME=$HOME/.ez_venv
+PATH_EZVENV_HOME=$HOME/.ezvenv
 PATH_VENVS=$PATH_EZVENV_HOME/venvs
 PATH_EZVENV_ETC=$PATH_EZVENV_HOME/etc
 PATH_EZVENV_COMMANDS=$PATH_EZVENV_HOME/commands
@@ -83,7 +83,7 @@ __ezvenv_run()
     fi
 }
 
-ez_venv()
+ezvenv()
 {
     __ezvenv_run "$@"
 }
