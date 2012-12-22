@@ -1,9 +1,9 @@
 #
-# Makefile for install ez_venv
+# Makefile for install ezvenv
 #
 #
 
-EZVENV_HOME=$(HOME)/.ez_venv
+EZVENV_HOME=$(HOME)/.ezvenv
 EZVENV_ETC=$(EZVENV_HOME)/etc
 EZVENV_COMMANDS=$(EZVENV_HOME)/commands
 EZVENV_VENVS=$(EZVENV_HOME)/venvs
@@ -22,7 +22,7 @@ install:
         then mkdir $(EZVENV_VENVS); \
         fi
 
-	cp -i ./ez_venv.sh $(EZVENV_ETC)/ez_venv.sh
+	cp -i ./ezvenv.sh $(EZVENV_ETC)/ezvenv.sh
 	cp -i ./README.md $(EZVENV_ETC)/README.md
 
 	curl -o $(EZVENV_COMMANDS)/virtualenv.py https://raw.github.com/pypa/virtualenv/master/virtualenv.py
